@@ -47,21 +47,23 @@ table {
 	border-spacing: 0;
 }
 .container{
-    width: 700px;
+    width: 600px;
     margin: 10px auto;
 }
-
 .main{
-	margin-bottom: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+.main-body{
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	margin-left: 20px;
 }
 .main img{
     border-radius: 50%;
-	position: absolute;
-}
-.main p,h1,a{
-	position: relative;
-	left: 200px;
-	top: 50px;
+	height: 120px;
+	width: 120px;
 }
 .main h1{
 	font-size: 28px;
@@ -76,8 +78,4 @@ table {
 	color: forestgreen;
 	text-decoration: none;
 	font-size:20px;
-}
-.header{
-	width: 600px;
-	border-top: 1px solid gray ;
 }
