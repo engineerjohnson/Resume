@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 .container{
-    width: 600px;
+    width: 700px;
     margin: 10px auto;
 }
 .main{
@@ -62,8 +62,9 @@ table {
 }
 .main img{
     border-radius: 50%;
-	height: 120px;
-	width: 120px;
+	width: 150px;
+	height: 150px;
+	overflow:hidden;
 }
 .main h1{
 	font-size: 28px;
