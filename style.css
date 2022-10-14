@@ -89,10 +89,9 @@ li{
 }
 .header,.menu{
 	padding-left:15px ;
-	
 }
-.header,.menu h2{
-	padding: 10px 0px;
+.header h2,.menu h2{
+	padding: 10px 0 10px 0;
 }
 .header li{
 	position: relative;
