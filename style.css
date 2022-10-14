@@ -46,6 +46,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+li{
+	line-height: 30px;
+	padding-left: 25px;
+}
 .container{
     width: 700px;
     margin: 10px auto;
@@ -64,11 +72,10 @@ table {
     border-radius: 50%;
 	width: 150px;
 	height: 150px;
-	overflow:hidden;
 }
 .main h1{
-	font-size: 28px;
-	font-weight: 50pX;
+	font-size: 30px;
+	font-weight: bolder;
 }
 .main p{
 	text-indent: 34px;
@@ -79,4 +86,63 @@ table {
 	color: forestgreen;
 	text-decoration: none;
 	font-size:20px;
+}
+.header,.menu{
+	padding-left:15px ;
+	
+}
+.header,.menu h2{
+	padding: 10px 0px;
+}
+.header li{
+	position: relative;
+}
+.header li::after{
+	content:"";
+	width: 12px;
+	height: 12px;
+	background-color: gray;
+	border-radius: 50%;
+	left: 2px;
+	bottom: 10px;
+	position: absolute;
+	z-index: 0;
+}
+.header li:first-child::before{
+	content: "";
+	width: 2px;
+	height: 100%;
+	background-color: gray;
+	z-index: 2;
+	position: absolute;
+	left: 7px;
+	bottom: -10px;
+}
+.menu li{
+	position: relative;
+}
+.menu span{
+	color: gray;
+	font-size: 15px;
+}
+.menu li::after{
+	content:"";
+	width: 12px;
+	height: 12px;
+	background-color: gray;
+	border-radius: 50%;
+	left: 2px;
+	bottom: 40px;
+	position: absolute;
+	z-index: 0;
+}
+.menu li:first-child::before{
+	content: "";
+	width: 2px;
+	height: 120px;
+	background-color: gray;
+	z-index: 2;
+	position: absolute;
+	left: 7px;
+	bottom: -80px;
 }
