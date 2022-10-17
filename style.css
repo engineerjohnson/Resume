@@ -87,10 +87,10 @@ li{
 	text-decoration: none;
 	font-size:20px;
 }
-.header,.menu{
+.header,.menu,.content{
 	padding-left:15px ;
 }
-.header h2,.menu h2{
+.header h2,.menu h2,.content h2{
 	padding: 10px 0 10px 0;
 }
 .header li{
@@ -144,4 +144,28 @@ li{
 	position: absolute;
 	left: 7px;
 	bottom: -80px;
+}
+.content  li{
+	position: relative;
+}
+.content li::after{
+	content:"";
+	width: 12px;
+	height: 12px;
+	background-color: gray;
+	border-radius: 50%;
+	left: 2px;
+	bottom: 8px;
+	position: absolute;
+	z-index: 0;
+}
+.content li:first-child::before{
+	content: "";
+	width: 2px;
+	height: 70px;
+	background-color: gray;
+	z-index: 2;
+	position: absolute;
+	left: 7px;
+	bottom: -50px;
 }
