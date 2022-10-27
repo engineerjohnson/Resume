@@ -68,11 +68,7 @@ li{
 	margin-top: 50px;
 	margin-left: 20px;
 }
-.main img{
-    border-radius: 50%;
-	width: 150px;
-	height: 150px;
-}
+
 .main h1{
 	font-size: 30px;
 	font-weight: bolder;
@@ -114,7 +110,7 @@ li{
 	background-color: gray;
 	z-index: 2;
 	position: absolute;
-	left: 7px;
+	margin-left: -18px;
 	bottom: -10px;
 }
 .menu li{
@@ -142,7 +138,7 @@ li{
 	background-color: gray;
 	z-index: 2;
 	position: absolute;
-	left: 7px;
+	margin-left: -18px;
 	bottom: -80px;
 }
 .content  li{
@@ -166,6 +162,13 @@ li{
 	background-color: gray;
 	z-index: 2;
 	position: absolute;
-	left: 7px;
+	margin-left: -18px;
 	bottom: -50px;
+}
+.image{
+	width: 704px;
+	height: 160px;
+	background-image: url(/Resume/大頭照.jpg);
+	background-position: -10px -30px;
+	border-radius: 50%;
 }
